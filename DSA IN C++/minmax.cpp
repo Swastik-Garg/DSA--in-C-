@@ -6,16 +6,16 @@
 using namespace std;
  
 int main(){
-	int a[5],i,max,min;
-	//int a[5] = {12,43,56,87,2};
-	cout<<"Enter the 5 values for array:\n";
-	for(i=0; i<5; i++){
-		cin>>a[i];
-	}
-	cout<<"\nThe elements in an array are:\n";
-	for(i=0; i<5; i++){
-		cout<<a[i]<<"\n"; //to print elements in new line
-	}
+	int i,max,min;
+	int a[5] = {4,9,2,3,6};
+//	cout<<"Enter the 5 values for array:\n";
+//	for(i=0; i<5; i++){
+//		cin>>a[i];
+//	}
+//	cout<<"\nThe elements in an array are:\n";
+//	for(i=0; i<5; i++){
+//		cout<<a[i]<<"\n"; //to print elements in new line
+//	}
 	max = a[0];
 	min = a[0];
 	for(i=0; i<5; i++){
@@ -27,6 +27,6 @@ int main(){
 		}
 	}
 	cout<<"The maximum element in an array is : "<<max;
-	cout<<"\n"<<"The minimum element in an array is :"<<min;
+	cout<<"\n"<<"The minimum element in an array is : "<<min;
 }
 
